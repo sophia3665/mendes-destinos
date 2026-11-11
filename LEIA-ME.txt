@@ -1,0 +1,16 @@
+MENDES DESTINOS — PROJETO 2: ROTEIRO DE VIAGEM
+
+Como abrir:
+1. Extraia a pasta do arquivo ZIP.
+2. Abra a pasta projeto-roteiro-viagem.
+3. Clique duas vezes em index.html para visualizar no navegador.
+
+Arquivos:
+- index.html: estrutura e conteúdo.
+- style.css: aparência e responsividade.
+- script.js: navegação entre as seções.
+- images/: fotografias utilizadas no site.
+
+Observação:
+O site usa fontes do Google Fonts quando há conexão com a internet.
+As imagens fornecidas foram mantidas com os nomes originais definidos no planejamento.

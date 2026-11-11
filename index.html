@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore roteiros, paisagens e experiências pelo Rio de Janeiro e por Pernambuco.">
+  <title>Mendes Destinos | Roteiro de Viagem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Mendes Destinos - início" data-page="inicio">
+      <span class="brand-mark">M</span><span>MENDES<span class="brand-light"> DESTINOS</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <button class="nav-link active" data-page="inicio">Início</button>
+      <button class="nav-link" data-page="rio">Rio de Janeiro</button>
+      <button class="nav-link" data-page="pernambuco">Pernambuco</button>
+      <button class="nav-link" data-page="sobre">Sobre</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page active" id="inicio">
+      <div class="hero">
+        <img src="images/cristo-redentor.jpg" alt="Vista aérea do Cristo Redentor e da cidade do Rio de Janeiro" class="hero-image">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <span class="eyebrow">DOIS DESTINOS, MUITAS DESCOBERTAS</span>
+          <h1>Seu próximo destino<br><em>começa aqui.</em></h1>
+          <p>Explore paisagens, descubra lugares especiais e encontre inspiração para conhecer o Rio de Janeiro e Pernambuco.</p>
+          <button class="primary-btn" data-page="rio">Começar a explorar <span>↗</span></button>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> VIAJE PELO BRASIL</div>
+      </div>
+
+      <section class="intro section-wrap">
+        <div>
+          <span class="eyebrow dark">ESCOLHA SEU CAMINHO</span>
+          <h2>Dois lugares,<br><em>duas experiências.</em></h2>
+        </div>
+        <p class="intro-copy">Do ritmo vibrante das cidades às praias de águas tranquilas, cada destino tem uma história esperando para ser descoberta.</p>
+      </section>
+
+      <section class="destination-grid section-wrap">
+        <article class="destination-card">
+          <img src="images/copacabana.jpg" alt="Vista aérea da praia de Copacabana">
+          <div class="card-gradient"></div>
+          <div class="destination-info">
+            <span class="card-kicker">SUDESTE • BRASIL</span>
+            <h3>Rio de Janeiro</h3>
+            <p>Praias famosas, paisagens marcantes e uma energia que contagia.</p>
+            <button class="text-btn" data-page="rio">Explorar destino <span>→</span></button>
+          </div>
+        </article>
+        <article class="destination-card">
+          <img src="images/praia-dos-carneiros.jpg" alt="Praia dos Carneiros em Pernambuco">
+          <div class="card-gradient"></div>
+          <div class="destination-info">
+            <span class="card-kicker">NORDESTE • BRASIL</span>
+            <h3>Pernambuco</h3>
+            <p>Praias paradisíacas, centros históricos e cultura por toda parte.</p>
+            <button class="text-btn" data-page="pernambuco">Explorar destino <span>→</span></button>
+          </div>
+        </article>
+      </section>
+      <section class="quote-band">
+        <p>“Viajar é descobrir que o Brasil cabe em muitas paisagens.”</p>
+        <span>MENDES DESTINOS</span>
+      </section>
+    </section>
+
+    <section class="page interior-page" id="rio">
+      <div class="page-hero">
+        <img src="images/pao-de-acucar.jpg" alt="Bondinho do Pão de Açúcar no Rio de Janeiro">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-text"><span class="eyebrow">SUDESTE • BRASIL</span><h1>Rio de Janeiro</h1><p>Entre o mar e as montanhas, descubra cenários que fazem do Rio um destino inesquecível.</p></div>
+      </div>
+      <div class="section-wrap content-section">
+        <span class="eyebrow dark">LUGARES PARA CONHECER</span>
+        <h2>Explore o <em>Rio.</em></h2>
+        <div class="place-grid">
+          <article class="place-card"><img src="images/cristo-redentor.jpg" alt="Cristo Redentor"><div><h3>Cristo Redentor</h3><p>Um dos cartões-postais mais conhecidos do Brasil, com uma vista ampla da cidade.</p></div></article>
+          <article class="place-card"><img src="images/copacabana.jpg" alt="Praia de Copacabana"><div><h3>Praia de Copacabana</h3><p>Calçadão famoso, orla movimentada e um dos cenários mais emblemáticos do Rio.</p></div></article>
+          <article class="place-card"><img src="images/pao-de-acucar.jpg" alt="Pão de Açúcar"><div><h3>Pão de Açúcar</h3><p>Um passeio de bondinho que revela belas paisagens da Baía de Guanabara.</p></div></article>
+          <article class="place-card"><img src="images/escadaria-selaron.jpg" alt="Escadaria Selarón"><div><h3>Escadaria Selarón</h3><p>Uma obra colorida feita de azulejos que se tornou símbolo da criatividade carioca.</p></div></article>
+        </div>
+      </div>
+      <div class="return-row"><button class="outline-btn" data-page="inicio">← Voltar ao início</button></div>
+    </section>
+
+    <section class="page interior-page" id="pernambuco">
+      <div class="page-hero">
+        <img src="images/porto-de-galinhas.jpg" alt="Piscinas naturais de Porto de Galinhas">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-text"><span class="eyebrow">NORDESTE • BRASIL</span><h1>Pernambuco</h1><p>Um destino de praias encantadoras, patrimônio histórico e experiências cheias de identidade.</p></div>
+      </div>
+      <div class="section-wrap content-section">
+        <span class="eyebrow dark">LUGARES PARA CONHECER</span>
+        <h2>Explore <em>Pernambuco.</em></h2>
+        <div class="place-grid">
+          <article class="place-card"><img src="images/marco-zero.jpg" alt="Marco Zero do Recife"><div><h3>Marco Zero</h3><p>No Recife Antigo, é um ponto de encontro e uma referência para conhecer a cidade.</p></div></article>
+          <article class="place-card"><img src="images/praia-dos-carneiros.jpg" alt="Praia dos Carneiros"><div><h3>Praia dos Carneiros</h3><p>Coqueiros, mar tranquilo e a charmosa igrejinha à beira-mar.</p></div></article>
+          <article class="place-card"><img src="images/porto-de-galinhas.jpg" alt="Porto de Galinhas"><div><h3>Porto de Galinhas</h3><p>Conhecida pelas piscinas naturais e pelas águas claras na maré baixa.</p></div></article>
+          <article class="place-card"><img src="images/olinda.jpg" alt="Centro histórico de Olinda"><div><h3>Olinda</h3><p>Ruas históricas, ladeiras e arquitetura colonial em um cenário cheio de cultura.</p></div></article>
+        </div>
+      </div>
+      <div class="return-row"><button class="outline-btn" data-page="inicio">← Voltar ao início</button></div>
+    </section>
+
+    <section class="page about-page" id="sobre">
+      <div class="about-panel">
+        <span class="eyebrow">SOBRE O PROJETO</span>
+        <h1>Conhecer o Brasil<br><em>é se surpreender.</em></h1>
+        <p>O Mendes Destinos é um guia de inspiração turística criado para apresentar um pouco das belezas e experiências do Rio de Janeiro e de Pernambuco. A proposta é reunir destinos, informações e ideias de passeios em um só lugar.</p>
+        <p>Escolha um estado, explore os lugares e comece a imaginar sua próxima viagem.</p>
+        <button class="primary-btn" data-page="inicio">Voltar para a página inicial <span>↗</span></button>
+      </div>
+      <div class="about-image"><img src="images/olinda.jpg" alt="Paisagem histórica de Olinda"></div>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#" data-page="inicio">MENDES DESTINOS</a><span>Descubra novos caminhos pelo Brasil.</span><span>Projeto educativo • 2026</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
